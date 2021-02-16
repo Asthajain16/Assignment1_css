@@ -1,0 +1,67 @@
+/*resetting default*/
+*
+{ 
+    padding: 0px;
+    margin: 0px;
+    
+}
+body
+{
+    background-color: #d8da3d;
+    margin-top: 20px;
+}
+/*list styling*/
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    background-color: #ffffff;
+    margin: 10px 0 0 8px;
+    padding: 5px 5px 5px 5px;
+    border-right: 15px solid black;
+    width: 160px;
+    align-items: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+div
+{
+    color:#80007E;
+       
+}
+/*paragraph styling*/
+p
+{
+    padding-left: 25px; 
+}
+/*line styling*/
+hr
+{
+    border: 0.5px dotted #80007E;
+    width: 1500px;
+}
+/*div class*/
+.same
+{
+        display: table;
+}
+
+.same ul 
+{
+    display: table-cell;
+}
+
+.same p
+{
+    display:table-cell;
+}
+
+/*h1 id for font */
+#font_h1
+{
+    font-family: sans-serif;
+}
